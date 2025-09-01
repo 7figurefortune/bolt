@@ -92,7 +92,7 @@ Let's get you up and running with the latest version of D3ploy!
 
 ## Quick Installation
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20D3ploy&sort=semver)](https://d3ploy.app) ← Click here to go the the latest release version!
+[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt?label=Download%20D3ploy&sort=semver)](https://d3ploy.app) ← Click here to go the the latest release version!
 
 - Download the binary for your platform
 - Note: For macOS, if you get the error "This app is damaged", run ```xattr -cr /path/to/Bolt.app```
@@ -197,7 +197,7 @@ This method is recommended for developers who want to:
 1. **Clone the Repository**:
 
    ```bash
-   git clone -b stable https://github.com/stackblitz-labs/bolt.diy.git
+   git clone -b stable https://github.com/stackblitz-labs/bolt.git
    ```
 
 2. **Navigate to Project Directory**:

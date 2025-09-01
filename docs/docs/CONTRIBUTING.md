@@ -78,7 +78,7 @@ Interested in maintaining and growing the project? Fill out our [Contributor App
 
 - Clone the repository:
   ```bash
-  git clone https://github.com/stackblitz-labs/bolt.diy.git
+  git clone https://github.com/7figurefortune/bolt.git
   ```
 - Install dependencies:
   ```bash

@@ -32,14 +32,14 @@ theme:
   # logo: assets/logo.png
   # favicon: assets/logo.png
 repo_name: d3ploy
-repo_url: https://github.com/stackblitz-labs/bolt.diy
+repo_url: https://github.com/stackblitz-labs/bolt
 edit_uri: ''
 
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/stackblitz-labs/bolt.diy
+      link: https://github.com/stackblitz-labs/bolt
       name: d3ploy
     - icon: fontawesome/brands/discourse
       link: https://thinktank.ottomator.ai/
