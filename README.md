@@ -1,6 +1,6 @@
 # D3ploy
 
-[![bolt.diy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://bolt.diy)
+[![d3ploy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://d3ploy.app)
 
 Welcome to d3ploy, the official open source version of Bolt.new, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 
@@ -30,7 +30,6 @@ Welcome to d3ploy, the official open source version of Bolt.new, which allows yo
 - ✅ Mistral API Integration (@ArulGandhi)
 - ✅ "Open AI Like" API Integration (@ZerxZ)
 - ✅ Ability to sync files (one way sync) to local folder (@muzafferkadir)
-- ✅ Containerize the application with Docker for easy installation (@aaronbolton)
 - ✅ Publish projects directly to GitHub (@goncaloalves)
 - ✅ Ability to enter API keys in the UI (@ali00209)
 - ✅ xAI Grok Beta Integration (@milutinke)
@@ -83,7 +82,6 @@ Welcome to d3ploy, the official open source version of Bolt.new, which allows yo
 - **Integrated terminal** to view output of LLM-run commands.
 - **Revert code to earlier versions** for easier debugging and quicker changes.
 - **Download projects as ZIP** for easy portability Sync to a folder on the host.
-- **Integration-ready Docker support** for a hassle-free setup.
 - **Deploy** directly to **Netlify**
 
 ## Setup
@@ -94,7 +92,7 @@ Let's get you up and running with the latest version of D3ploy!
 
 ## Quick Installation
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20Bolt&sort=semver)](https://d3ploy.app) ← Click here to go the the latest release version!
+[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20D3ploy&sort=semver)](https://d3ploy.app) ← Click here to go the the latest release version!
 
 - Download the binary for your platform
 - Note: For macOS, if you get the error "This app is damaged", run ```xattr -cr /path/to/Bolt.app```
@@ -125,7 +123,7 @@ Node.js is required to run the application.
 
 ## Running the Application
 
-You have two options for running Bolt.DIY: directly on your machine or using Docker.
+You have two options for running D3ploy: directly on your machine or using Docker.
 
 ### Option 1: Direct Installation (Recommended for Beginners)
 
@@ -147,30 +145,6 @@ You have two options for running Bolt.DIY: directly on your machine or using Doc
    pnpm run dev
    ```
    
-### Option 2: Using Docker
-
-This option requires some familiarity with Docker but provides a more isolated environment.
-
-#### Additional Prerequisite
-
-- Install Docker: [Download Docker](https://www.docker.com/)
-
-#### Steps:
-
-1. **Build the Docker Image**:
-
-   ```bash
-   # Using npm script:
-   npm run dockerbuild
-
-   # OR using direct Docker command:
-   docker build . --target bolt-ai-development
-   ```
-
-2. **Run the Container**:
-   ```bash
-   docker compose --profile development up
-   ```
 
 ## Configuring API Keys and Providers
 
@@ -229,7 +203,7 @@ This method is recommended for developers who want to:
 2. **Navigate to Project Directory**:
 
    ```bash
-   cd bolt.diy
+   cd d3ploy
    ```
 
 3. **Install Dependencies**:

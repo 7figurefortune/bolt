@@ -1,5 +1,5 @@
-appId: com.stackblitz.bolt.diy
-productName: Bolt Local
+appId: com.d3ploy
+productName: D3ploy
 directories:
   buildResources: build
   output: dist
@@ -18,7 +18,7 @@ asarUnpack:
   - electron-update.yml
 
 mac:
-  icon: assets/icons/icon.icns
+  icon: d3ploy_logos/512x512.png
   target:
     - dmg
   identity: null
@@ -30,13 +30,13 @@ mac:
   gatekeeperAssess: false
 
 win:
-  icon: assets/icons/icon.ico
+  icon: d3ploy_logos/favicon.ico
   target:
     - nsis
   artifactName: ${name}-${version}-${os}-${arch}.${ext}
 
 linux:
-  icon: assets/icons/icon.png
+  icon: d3ploy_logos/512x512.png
   target:
     - AppImage
     - deb
